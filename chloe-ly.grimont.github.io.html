@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chloe-Ly Grimont · Engineer in Data, Modelling &amp; Health</title>
+<style>
+:root{--bg:#fbfaf7;--card:#fff;--ink:#17202b;--mute:#5b6675;--line:#e4e1da;--acc:#1f5f8b;--acc2:#e8f1f7;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141a;--card:#171e26;--ink:#e9eef3;--mute:#9aa7b5;--line:#27313c;--acc:#6fb4e0;--acc2:#1b2a37;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f141a;--card:#171e26;--ink:#e9eef3;--mute:#9aa7b5;--line:#27313c;--acc:#6fb4e0;--acc2:#1b2a37;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:var(--acc)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+nav div{max-width:960px;margin:auto;padding:12px 20px;display:flex;gap:18px;align-items:center;overflow-x:auto;white-space:nowrap}
+nav b{margin-right:auto}nav a{text-decoration:none;color:var(--mute);font-size:14px}nav a:hover{color:var(--acc)}
+nav button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:4px 9px;cursor:pointer}
+main{max-width:960px;margin:auto;padding:0 20px}
+section{padding:44px 0 8px}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.1;margin:.2em 0}
+h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin:0 0 18px}
+.hero{padding-top:56px}.lead{font-size:19px;color:var(--mute);max-width:640px}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.btn{padding:10px 16px;border-radius:10px;border:1px solid var(--acc);text-decoration:none;font-weight:600}
+.btn.p{background:var(--acc);color:var(--bg)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tag{background:var(--acc2);color:var(--acc);padding:3px 10px;border-radius:99px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{margin:0 0 2px;font-size:17px}.meta{color:var(--mute);font-size:13px;margin-bottom:8px}
+.card ul,.job ul{margin:8px 0 0;padding-left:18px}li{margin:3px 0}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:5px 14px;cursor:pointer;font-size:14px}
+.chip[aria-pressed="true"]{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+.job{border-left:2px solid var(--acc);padding:0 0 18px 16px;margin-left:4px}
+.job h3{margin:0;font-size:17px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.kv{margin:0 0 6px}.kv b{display:inline-block;min-width:92px}
+footer{max-width:960px;margin:40px auto 0;padding:24px 20px 32px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+</style>
+</head>
+<body>
+<nav><div><b>CG</b><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a><button id="t" aria-label="Toggle theme">◐</button></div></nav>
+<main>
+<section class="hero" id="top">
+<div class="meta">MEng student · CentraleSupélec &amp; University of Cambridge</div>
+<h1>Chloe-Ly Grimont</h1>
+<p class="lead">I apply data science, analytics and modelling to complex problems in health, energy and climate. Open to a 5–6 month internship starting February or March 2027.</p>
+<div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn" href="mailto:chloely.grimont@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/chloely-grimont">LinkedIn</a></div>
+<div class="tags"><span class="tag">Python</span><span class="tag">MATLAB</span><span class="tag">SQL</span><span class="tag">Machine Learning</span><span class="tag">Data pipelines</span><span class="tag">Modelling</span></div>
+</section>
+
+<section id="about"><h2>About</h2>
+<p>I’m an engineering student at CentraleSupélec (Université Paris-Saclay) who spent a year at the University of Cambridge studying statistical signal processing, medical imaging and molecular bioengineering. I’m currently a Climate Data Analyst intern at Greenly, where I turn emissions data into decisions for clients.</p>
+<p>I grew up between Singapore and Vietnam, so I’m at ease in multicultural teams. I speak French, English, Spanish and Mandarin, and I enjoy projects that mix technical rigour with real-world impact.</p>
+</section>
+
+<section id="projects"><h2>Projects</h2>
+<div class="chips" role="group" aria-label="Filter projects">
+<button class="chip" data-f="all" aria-pressed="true">All</button><button class="chip" data-f="ml" aria-pressed="false">Data &amp; ML</button><button class="chip" data-f="bio" aria-pressed="false">Biomedical</button><button class="chip" data-f="energy" aria-pressed="false">Energy</button><button class="chip" data-f="eng" aria-pressed="false">Engineering &amp; Maths</button></div>
+<div class="grid">
+<article class="card" data-c="bio ml"><h3>CT Reconstruction &amp; Visualisation</h3><div class="meta">Group project · 5 weeks · May–June 2026</div>
+<ul><li>Built a CT simulator in Python using filtered back-projection, with noise and beam-hardening corrections.</li><li>Reconstructed and modelled a real CT scan, then 3D-printed a torso model using SolidWorks and 3D Slicer.</li></ul><div class="tags"><span class="tag">Python</span><span class="tag">3D Slicer</span><span class="tag">SolidWorks</span></div></article>
+<article class="card" data-c="energy ml"><h3>Electrification &amp; Microgrid Planning, La Gomera</h3><div class="meta">5 weeks · May–June 2026 · conducted in Spanish</div>
+<ul><li>Collected and analysed production and demand data in Python and Excel for photovoltaic and wind energy.</li><li>Planned scenarios for 2030 and 2040 to raise renewable production from 15% to 100%.</li></ul><div class="tags"><span class="tag">Python</span><span class="tag">Excel</span><span class="tag">Scenario planning</span></div></article>
+<article class="card" data-c="ml"><h3>Machine Learning for Higgs Detection</h3><div class="meta">June 2025 · 36 members, 6 working groups</div>
+<ul><li>Trained a Python neural network to tell Higgs particles from Z bosons, using batch normalisation, dropout and early stopping.</li><li>Coordinated six working groups on GitHub, covering feature analysis and systematics for the neural network and BDT.</li></ul><div class="tags"><span class="tag">Neural networks</span><span class="tag">Git</span></div></article>
+<article class="card" data-c="eng"><h3>Biomimicking the Bouligand Structure</h3><div class="meta">Client project for Ceebios · April 2025</div>
+<ul><li>Studied and modelled in SolidWorks the mechanical and structural properties of the lacunar Bouligand structure found in lobster cuticles, to cut the environmental and economic costs of industrial packaging.</li><li>Pitched adoption of the structure to prospect companies in industry to encourage further research and testing.</li></ul><div class="tags"><span class="tag">SolidWorks</span><span class="tag">Biomimicry</span><span class="tag">Client pitch</span></div></article>
+<article class="card" data-c="bio"><h3>Controlled Release of Pharmaceutical Agents</h3><div class="meta">Group project · 1 week · January 2025</div>
+<ul><li>MATLAB simulation of free diffusion versus encapsulated delivery in plasma and in organs.</li><li>Optimised drug and nanoparticle dosage to cut cardiotoxicity by 55% and study costs by 10%.</li></ul><div class="tags"><span class="tag">MATLAB</span><span class="tag">Simulation</span></div></article>
+<article class="card" data-c="energy eng"><h3>Barrage Flow Regulation</h3><div class="meta">Group project · 1 week · January 2025</div>
+<ul><li>Modelled a three-tank barrage in MATLAB to reduce overflow risk, optimising tank sizes from rainfall and terrain data.</li><li>Produced Petri net models to implement overflow risk management measures.</li></ul><div class="tags"><span class="tag">MATLAB</span><span class="tag">Petri nets</span></div></article>
+<article class="card" data-c="eng ml"><h3>Mathematical Braids and Juggling</h3><div class="meta">Interdisciplinary research project · 2023–2024</div>
+<ul><li>Researched the mathematical theory of braids.</li><li>Implemented Python models to compare visual and formal braid representations.</li></ul><div class="tags"><span class="tag">Python</span><span class="tag">Mathematics</span></div></article>
+</div></section>
+
+<section id="experience"><h2>Experience</h2>
+<div class="job"><h3>Climate Data Analyst Intern · Greenly</h3><div class="meta">August 2026 – January 2027 · 6 months</div>
+<ul><li>Analysed carbon emissions data with GHG Protocol and SBTi methodologies; automated Excel workflows, cutting analysis time by 50%.</li><li>Redesigned client-facing and internal data collection to support a post-merger integration.</li><li>Maintained data pipelines and built dashboards delivering real-time insights on Greenly’s SaaS platform.</li></ul></div>
+<div class="job"><h3>Summer Intern · Sysnav</h3><div class="meta">July – August 2025 · 5 weeks</div>
+<ul><li>Quality control of navigation solutions for medical devices, automotive and geolocation uses.</li><li>Wrote technical test reports used to validate and deploy new geolocation watch models.</li></ul></div>
+<div class="job"><h3>International Relations Manager · Raid CentraleSupélec</h3><div class="meta">2024 – 2026</div>
+<ul><li>Helped organise a 5-day trail running and mountain biking race for 150 participants; ran 48 hours of night logistics in 2025.</li><li>Secured funding from European institutions and international sponsors.</li></ul></div>
+<div class="job"><h3>Secretary General · Népal Āśā</h3><div class="meta">2024 – 2025</div>
+<ul><li>Student association fighting poverty and school dropout in Kathmandu; coordinated fundraising for an education centre.</li></ul></div>
+<div class="job"><h3>Volunteer Tutor · OSER and Charlemagne associations</h3><div class="meta">2022 – 2025</div>
+<ul><li>Provided academic support to underprivileged secondary school students.</li></ul></div>
+<div class="job"><h3>Observation Internship · International Vaccine Institute</h3><div class="meta">May 2019 · 1 week · Seoul, South Korea</div>
+<ul><li>Assisted in identifying priority areas for clinical trials of the Chikungunya vaccine.</li></ul></div>
+</section>
+
+<section id="skills"><h2>Skills &amp; Education</h2>
+<div class="two">
+<div class="card"><p class="kv"><b>Programming</b>Python, MATLAB, SQL, C++ (basic)</p><p class="kv"><b>Data</b>BigQuery, FiveTran, Luzmo, Power BI</p><p class="kv"><b>Tools</b>SolidWorks, 3D Slicer, Git, VS Code, LaTeX</p><p class="kv"><b>Languages</b>French · English · Spanish · Mandarin</p><p class="kv"><b>Certified</b>First-Aid Rescuer, ICH Good Clinical Practice</p></div>
+<div class="card"><p class="kv"><b>2025–2026</b>University of Cambridge, MEng exchange</p><p class="kv"><b>2024–2028</b>CentraleSupélec, MEng in Engineering</p><p class="kv"><b>2022–2024</b>Lycée Sainte-Geneviève, preparatory class</p></div>
+</div></section>
+
+<section id="contact"><h2>Contact</h2>
+<p>Looking for an intern in data, modelling or analytics? I’d love to hear from you.</p>
+<div class="btns"><a class="btn p" href="mailto:chloely.grimont@gmail.com">chloely.grimont@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/chloely-grimont">LinkedIn</a></div></section>
+</main>
+<footer>© 2026 Chloe-Ly Grimont</footer>
+<script>
+(function(){
+var r=document.documentElement,b=document.getElementById('t');
+b.onclick=function(){var d=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');r.setAttribute('data-theme',d==='dark'?'light':'dark')};
+var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.card[data-c]');
+chips.forEach(function(c){c.onclick=function(){chips.forEach(function(x){x.setAttribute('aria-pressed',x===c)});
+cards.forEach(function(k){k.style.display=(c.dataset.f==='all'||k.dataset.c.split(' ').indexOf(c.dataset.f)>-1)?'':'none'})}});
+})();
+</script>
+</body>
+</html>
